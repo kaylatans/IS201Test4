@@ -1,0 +1,79 @@
+body {
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #444444;
+    background-color: #ffffff;
+    font-family: Open Sans, arial;
+    font-weight: 400;
+    align-items: center;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: '-- ';
+}
+ol {
+    list-style-position: inside;
+    text-align: left;
+}
+li {
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+    list-style-position: inside;
+}
+p {
+    text-align: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(54, 0, 81);
+}
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.smallerLineHeight {line-height: 10px;}
+.normalLineHeight {line-height: 15px;}
+.smalltext {font-size: 12px;}
+.center {text-align: center;}
+.rightalign {text-align: right;}
+.leftalign {text-align: left;}
+.justify {text-align: justify;}
+.normaltext {font-style: normal;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.underline {text-decoration: underline;}
+.rightPadding {padding-right: 20px;}
+.highlight {background-color: lightblue;}
+.fixed {position: fixed}
+.aboutMeHeader {
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 70px;
+    text-align: left;
+}
+/*.centeritems {align-items: center;}*/
+.homebg {
+    background-image: url('../images/MountainSunset.jpg');
+    background-position: top right;
+    background-repeat: repeat;
+}
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.box2 {
+    padding: 5px;
+}
+.box3 {
+    margin: 50px;
+}
